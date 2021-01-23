@@ -16,6 +16,13 @@
   justify-content: center;
 }
 
+.flex-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
 
 .header {
   height: 100vh;
@@ -44,8 +51,8 @@
   height: 608px;
   width: 765px;
   position: absolute;
-  right: 0px;
-  bottom: 0px;
+  right: 0;
+  bottom: 0;
   z-index: 2;
 }
 
@@ -81,10 +88,55 @@
   height: 568px;
   width: 568px;
   position: absolute;
-  right: 0px;
+  right: 0;
   top: 64px;
   background-color: #2f80ed;
 }
+
+.description{
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.two-columns{
+  width: 80%;
+}
+
+.two-columns_brief{
+  width: 175px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin:0;
+  color: #2f80ed;
+}
+
+.two-columns_main-text{
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns_paragraph{
+margin-bottom: 30px;
+  line-height: 34px;
+  font-size:24px;
+  font-weight: normal;
+}
+
+.two-columns_paragraph:last-child{
+  margin-bottom:0;
+  line-height: 34px;
+
+}
+
+.two-columns_span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
