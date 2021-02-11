@@ -50,22 +50,10 @@
 @import url(../blocks/footer/__column-links/footer__column-links.css);
 @import url(../blocks/footer/__author/footer__author.css);
 
-.techniques{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-}
+@import url(../blocks/techniques/techniques.css);
+@import url(../blocks/cards/cards.css);
 
-.cards{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  width: 920px;
-}
+
 
 .cards__item{
   margin-top: 60px;
@@ -237,3 +225,47 @@
   width: 270px;
   height: 38px;
 }
+
+.resources__logo:hover {
+  opacity: 70%;
+  transition: ease;
+}
+
+.feynman__link:hover{
+  opacity: 70%;
+  transition: ease;
+}
+
+.footer__column-link:hover{
+  opacity: 70%;
+  transition: ease;
+}
+
+.header__link:hover {
+  opacity: 70%;
+  transition: ease;
+}
+
+.logo_place_header:hover{
+  opacity: 70%;
+  transition: ease;
+}
+
+.logo_place_footer:hover{
+  opacity: 70%;
+  transition: ease;
+}
+
+.rotation{
+  animation: move 20s infinite linear;
+}
+
+@keyframes move {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
