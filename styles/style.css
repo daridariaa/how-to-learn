@@ -94,6 +94,7 @@
   flex-direction: column;
   align-items: center;
   position: relative;
+  padding-bottom: 316px;
 }
 
 .video__iframes{
@@ -103,6 +104,8 @@
   margin-right: auto;
   margin-left: auto;
   margin-top: 50px;
+  position: absolute;
+  bottom: -60px;
 }
 
 .video__iframe{
@@ -127,8 +130,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 160px;
+  padding-bottom: 80px;
 }
 
 .khan{
@@ -228,32 +231,32 @@
 
 .resources__logo:hover {
   opacity: 70%;
-  transition: ease;
+  transition: ease 0.5s;
 }
 
 .feynman__link:hover{
   opacity: 70%;
-  transition: ease;
+  transition: ease 0.5s;
 }
 
 .footer__column-link:hover{
   opacity: 70%;
-  transition: ease;
+  transition: ease 0.5s;
 }
 
 .header__link:hover {
   opacity: 70%;
-  transition: ease;
+  transition: ease 0.5s;
 }
 
 .logo_place_header:hover{
   opacity: 70%;
-  transition: ease;
+  transition: ease 0.5s;
 }
 
 .logo_place_footer:hover{
   opacity: 70%;
-  transition: ease;
+  transition: ease 0.5s;
 }
 
 .rotation{
