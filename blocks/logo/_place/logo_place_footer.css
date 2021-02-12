@@ -1,9 +1,6 @@
 .logo_place_footer {
   background-image: url("../../../images/logo_place_footer.svg");
   height: 35px;
-  transition: ease 0.5s;
 }
 
-.logo_place_footer:hover{
-  opacity: 70%;
-}
+

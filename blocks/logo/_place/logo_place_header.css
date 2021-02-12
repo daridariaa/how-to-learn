@@ -5,10 +5,7 @@
   left: 64px;
   top: 30px;
   z-index: 3;
-  transition: ease 0.5s;
 }
 
-.logo_place_header:hover{
-  opacity: 70%;
-}
+
 

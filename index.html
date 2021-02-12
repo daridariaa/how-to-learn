@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
-  <link rel="stylesheet" href="styles/index.css">
+  <link rel="stylesheet" href="pages/index.css">
 </head>
 <body>
   <div class="page">
@@ -68,8 +68,8 @@
         <h2 class="section-title">Видео нa TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <div class="video__iframes">
-          <div class="video__iframe"><iframe width="515" height="316" src="https://www.youtube.com/embed/J_89IMS5gJQ" style="border:none" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-          <div class="video__iframe"><iframe width="515" height="316" src="https://www.youtube.com/embed/0u3bccaRmmg" style="border:none" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/J_89IMS5gJQ" id="ytplayer" type="text/html" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/0u3bccaRmmg" id="ytplayer" type="text/html" allowfullscreen></iframe>
         </div>
       </section>
 
@@ -131,17 +131,15 @@
       </section>
 
       <section class="khan">
-        <div class="two-columns">
-          <div class="khan__container">
-            <p class="khan__author">Салман Хан</p>
-            <h2 class="khan__title">Весь мир — школа</h2>
-            <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
-            <h3 class="khan__quote-author">Джордж Лукас</h3>
-            <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
-            <div class="khan__book-container">
-              <div class="khan__book-pic"></div>
-              <a class="khan__buy-link" href="" target="_blank">Купить книгу &rarr;</a>
-            </div>
+        <div class="khan__container">
+          <p class="khan__author">Салман Хан</p>
+          <h2 class="khan__title">Весь мир — школа</h2>
+          <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+          <h3 class="khan__quote-author">Джордж Лукас</h3>
+          <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
+          <div class="khan__book-container">
+            <div class="khan__book-pic"></div>
+            <a class="khan__buy-link" href="" target="_blank">Купить книгу &rarr;</a>
           </div>
         </div>
       </section>
